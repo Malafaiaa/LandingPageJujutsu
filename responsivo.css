@@ -56,13 +56,11 @@
         width: 100%;
     }
 
-    .menu {
-        margin-bottom: 50px;
+    .menu .cabecalho {
+        margin-bottom: 30px;
     }
 
-    .cabecalho .logo{
-        height: 50%;
-    }
+  
 }
 
 /* Tamanho máximo de 425px */

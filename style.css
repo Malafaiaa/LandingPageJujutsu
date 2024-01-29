@@ -21,6 +21,7 @@ body{
 .cabecalho .menu{
     display: flex;
     gap: 30px;
+    
 }
 
 .cabecalho .menu li a{
@@ -158,7 +159,7 @@ body{
 .compre-ja .informacoes .plataformas{
     display:flex;
     flex-wrap: wrap;
-    gap: 32px;
+    gap: 40px;
     justify-content: center;
 }
 .compre-ja .btn-plataforma .plataformas{
