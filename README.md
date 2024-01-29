@@ -10,6 +10,12 @@ Bem-vindo à landing page do jogo Jujutsu Kaisen Cursed! Este repositório cont�
 
 Não é necessário instalar nada para visualizar a landing page. Basta acessar [aqui](https://malafaiaa.github.io/LandingPageJujutsu/) e explorar as informações fornecidas.
 
+## Recursos Utilizados
+
+- HTML5
+- CSS3
+- JavaScript
+
 ## Contato
 
 Se tiver dúvidas ou sugestões, sinta-se à vontade para entrar em contato:
