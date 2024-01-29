@@ -21,6 +21,7 @@ body {
 .cabecalho .menu{
     display: flex;
     gap: 30px;
+    margin-bottom: 10px;
 }
 
 .cabecalho .menu li a{
@@ -82,8 +83,8 @@ li {
 }
 
 .home .informacoes .titulo {
-    font-family: cursive;
-    font-size: 50px;
+    font-family: 'ChaletComprime';
+    font-size: 55px;
 }
 
 .home .informacoes .texto {
