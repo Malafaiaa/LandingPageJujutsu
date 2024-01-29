@@ -116,6 +116,13 @@ li{
     color: #000;
 }
 
+.compre-ja .btn-plataforma .plataformas li input[type="radio"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+
 .compre-ja .capa-do-jogo{
     width: 270px;
 }
@@ -181,6 +188,7 @@ li{
 .compre-ja .btn-plataforma .plataformas.ativo{
 display: flex;
 opacity: 1;
+
 }
 
 .compre-ja .btn-plataforma .plataformas li{
@@ -247,4 +255,5 @@ opacity: 1;
 #nobara{
     color: #fcaf17;
 }
+
 
