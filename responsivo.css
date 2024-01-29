@@ -6,11 +6,14 @@
         gap: 15px;
 
     }
+    
+   
 
     
     
     .cabecalho .menu li a {
         padding: 15px;
+        
     }
 
     .home .informacoes {
@@ -61,4 +64,5 @@
 .compre-ja .cartao .capa-do-jogo{
     max-width: 80%;
 }
+
 }
