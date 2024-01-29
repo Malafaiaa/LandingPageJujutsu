@@ -59,6 +59,10 @@
     .menu {
         margin-bottom: 50px;
     }
+
+    .cabecalho .logo{
+        height: 50%;
+    }
 }
 
 /* Tamanho máximo de 425px */

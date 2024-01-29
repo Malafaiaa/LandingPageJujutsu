@@ -1,9 +1,7 @@
-body {
+body{
     background-color: #282828;
     color: #fff;
 }
-
-
 .cabecalho{
     height: 80px;
     background-color: #0b0b0b;
@@ -15,13 +13,14 @@ body {
 .cabecalho .logo{
     display: flex;
     gap: 15px;
+    height: 90%;
+   
 
 }
 
 .cabecalho .menu{
     display: flex;
     gap: 30px;
-    
 }
 
 .cabecalho .menu li a{
@@ -36,13 +35,7 @@ body {
     border-bottom: 2px solid #ff0000;
 
 }
-
-li {
-    padding: 5px;
-    
-}
-
-.home {
+.home{
     background-color: aqua;
     display: flex;
     position: relative;
@@ -57,12 +50,13 @@ li {
     background: linear-gradient(90deg, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.7) 35%, transparent 65%);
 }
 
-.home .imagem-fundo {
+.home .imagem-fundo{
     width: 100%;
     object-fit: cover;
 }
 
-.home .informacoes {
+.home .informacoes{
+    
     position: absolute;
     z-index: 1;
     min-height: calc(100vh - 80px);
@@ -73,28 +67,25 @@ li {
     max-width: 780px;
 }
 
-.home .informacoes img {
+.home .informacoes img{
     max-width: 150px;
+    
 }
 
-.home .informacoes .lista-de-jogos {
+.home .informacoes .lista-de-jogos{
     display: flex;
     gap: 32px;
 }
-
-.home .informacoes .titulo {
-    font-family: 'ChaletComprime';
+.home .informacoes .titulo{
+    font-family: 'Times New Roman', Times, serif;
     font-size: 55px;
 }
-
-.home .informacoes .texto {
+.home  .informacoes .texto{
     font-family: "Chalet";
     font-family: 18px;
     line-height: 1.6;
 }
-
-.btn-comprar,
-.btn-plataforma {
+.btn-comprar, .btn-plataforma{
     background-color: rgba(255, 255, 255, .1);
     border: 0.5px solid #fff;
     border-radius: 4px;
@@ -104,50 +95,38 @@ li {
     padding: 20px 40px;
     text-transform: uppercase;
     width: 50%;
-    transition: all .3s ease-in;
+    transition:  all .3s ease-in;
 }
 
-.btn-comprar {
-    display: inline-block;
-}
-
-.btn-plataforma {
+.btn-plataforma{
     color: #fff;
     width: 100%;
-    cursor: pointer;
+    cursor:pointer;
 }
 
-.btn-comprar:hover {
+.btn-comprar:hover{
     background-color: #fff;
     color: #000;
 }
 
-.compre-ja .btn-plataforma .plataformas li input[type="radio"] {
-    appearance: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-}
-
-.compre-ja .capa-do-jogo {
+.compre-ja .capa-do-jogo{
     width: 270px;
 }
 
-.compre-ja {
+.compre-ja{
     align-items: center;
     display: flex;
     flex-direction: column;
     text-align: center;
     padding: 50px;
 }
-
-.compre-ja .titulo {
+.compre-ja .titulo{
     font-family: 'ChaletComprime';
     font-size: 50px;
     font-weight: 700;
     margin-bottom: 50px;
 }
-
-.compre-ja .cartao {
+.compre-ja .cartao{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -156,35 +135,33 @@ li {
     border-radius: 10px;
     padding: 80px;
     gap: 40px;
+    
 }
 
-.compre-ja .informacoes {
+.compre-ja .informacoes{
     display: flex;
     flex-direction: column;
     gap: 30px;
 }
-
-.compre-ja .informacoes h3 {
+.compre-ja .informacoes h3{
     font-family: "ChaletComprime";
     font-size: 52px;
     font-weight: 700;
-}
 
-.compre-ja .informacoes p {
+}
+.compre-ja .informacoes p{
     color: #e8e8e8;
     font-family: "Chalet";
     font-size: 16px;
     line-height: 1.6;
 }
-
-.compre-ja .informacoes .plataformas {
-    display: flex;
+.compre-ja .informacoes .plataformas{
+    display:flex;
     flex-wrap: wrap;
     gap: 32px;
     justify-content: center;
 }
-
-.compre-ja .btn-plataforma .plataformas {
+.compre-ja .btn-plataforma .plataformas{
     margin-top: 10px;
     display: flex;
     flex-direction: column;
@@ -192,8 +169,13 @@ li {
     transition: all .3s ease-in;
     display: none;
     opacity: 0;
-}
 
+}
+.compre-ja .btn-plataforma .plataformas li input[type="radio"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
 .compre-ja .btn-plataforma .plataformas.ativo {
     display: flex;
     opacity: 1;
@@ -266,4 +248,9 @@ li {
 
 #nobara {
     color: #fcaf17;
+}
+#p{
+    background: linear-gradient(90deg, #1a237e, #d32f2f);
+    border-radius: 15px;
+    
 }
