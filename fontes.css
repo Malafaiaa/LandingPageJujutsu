@@ -1,21 +1,4 @@
 @font-face {
-    font-family:'ChaletComprime' ;
-    src: url(/fontes/ChaletComprime.ttf);
-}
-
-@font-face{
-    font-family: 'JujutsuKaisen';
-    src: url(/fontes/Jujutsu\ Kaisen.ttf)
-}
-@font-face {
-    font-family:'Hangyaku' ;
-    src: url(/fontes/Hangyaku-L3oaG.ttf);
-}
-@font-face {
-    font-family:'Anime' ;
-    src: url(/fontes/Anime\ Inept.otf);
-}
-@font-face {
-    font-family:'aAnnyeongHaseyo' ;
-    src: url(/fontes/aAnnyeongHaseyo.otf);
+    font-family: "ChaletComprime";
+    src: url("../fontes/ChaletComprime");
 }
