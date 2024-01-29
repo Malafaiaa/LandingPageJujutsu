@@ -55,6 +55,9 @@
     .btn-comprar{
         width: 100%;
     }
+    .menu{
+        margin-bottom: 10px;
+    }
 }
 @media (max-width: 425px){
     main::after {
