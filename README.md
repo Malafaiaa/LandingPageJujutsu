@@ -4,7 +4,7 @@ Bem-vindo à landing page do jogo Jujutsu Kaisen Cursed! Este repositório cont�
 
 ## Visão Geral
 
-[Jujutsu Kaisen Cursed](https://malafaiaa.github.io/LandingPageJujutsu/) é um jogo inspirado na popular série de anime e mangá "Jujutsu Kaisen". A landing page tem como objetivo apresentar informações essenciais sobre o jogo, despertar o interesse dos usuários e direcioná-los para baixar ou saber mais sobre o jogo.
+[Jujutsu Kaisen Cursed] é um jogo inspirado na popular série de anime e mangá "Jujutsu Kaisen". A landing page tem como objetivo apresentar informações essenciais sobre o jogo, despertar o interesse dos usuários e direcioná-los para baixar ou saber mais sobre o jogo.
 
 ## Instalação
 
