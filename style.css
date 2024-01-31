@@ -78,7 +78,7 @@ body{
     gap: 32px;
 }
 .home .informacoes .titulo{
-    font-family: cursive;
+    font-family: monospace;
     font-size: 55px;
 }
 .home  .informacoes .texto{
